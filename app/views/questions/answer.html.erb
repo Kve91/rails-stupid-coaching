@@ -1,9 +1,8 @@
 <h1> Answer Page </h1>
 
 <p><%= @query %></p>
-<p>- You</p>
+<p id="your-answer">- You</p>
 
-<p><%= @response %></p>
-<p>- Your coach</p>
-
+<p id="coach-response"><%= @response %></p>
+<p id="coach-answer"> - Your coach</p>
 <%= link_to "Ask a new question", ask_path %>
